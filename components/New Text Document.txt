@@ -1,0 +1,7 @@
+<ImageBackground source={background} style={styles.backdrop}>
+        <Text>Zip code is {this.props.zipCode}.</Text>
+        <Forecast {...this.state.forecast} />
+        <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}} />
+        </ImageBackground>
